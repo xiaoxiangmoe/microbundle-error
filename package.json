@@ -1,0 +1,17 @@
+{
+  "name": "microbundle-error",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "source": "src/index.ts",
+  "repository": "https://github.com/xiaoxiangmoe/microbundle-error.git",
+  "author": "ZHAO Jinxiang <xiaoxiangmoe@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": " microbundle build --no-compress --strict --format=cjs,es && rm -rf .rts2_cache_*"
+  },
+  "devDependencies": {
+    "microbundle": "^0.7.0"
+  }
+}
